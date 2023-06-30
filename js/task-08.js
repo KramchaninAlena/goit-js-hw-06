@@ -10,11 +10,11 @@ if(password.value === '' || email.value === ''){
    return alert ('Всі поля повинні бути заповнені')
 };
 
-const data = {
+const userData = {
         email: email.value,
         password: password.value,
     }
-    console.log(data);
+    console.log(userData);
     formEl.reset();
     
 };
